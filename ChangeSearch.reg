@@ -1,0 +1,39 @@
+Windows Registry Editor Version 5.00
+
+;Sets "mediom/large icons/extra large icons"view as default search results view for Generic, Music, Videos, Documents folders.
+;Change IconSize to a value between 1-256 depending on how big icons you want
+
+[-HKEY_CURRENT_USER\SOFTWARE\Classes\Local Settings\Software\Microsoft\Windows\Shell\BagMRU]
+
+[-HKEY_CURRENT_USER\SOFTWARE\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags]
+
+;Generic Search Results
+[HKEY_CURRENT_USER\SOFTWARE\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\AllFolders\Shell\{7fde1a1e-8b31-49a5-93b8-6be14cfa4943}]
+"LogicalViewMode"=dword:00000003
+"Mode"=dword:00000001
+"IconSize"=dword:00000100
+
+;Pictures Search Results
+[HKEY_CURRENT_USER\SOFTWARE\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\AllFolders\Shell\{4dcafe13-e6a7-4c28-be02-ca8c2126280d}]
+"LogicalViewMode"=dword:00000003
+"Mode"=dword:00000001
+"IconSize"=dword:00000100
+
+;Music Search Results
+[HKEY_CURRENT_USER\SOFTWARE\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\AllFolders\Shell\{71689ac1-cc88-45d0-8a22-2943c3e7dfb3}]
+"LogicalViewMode"=dword:00000003
+"Mode"=dword:00000001
+"IconSize"=dword:00000100
+
+;Documents Search Results
+[HKEY_CURRENT_USER\SOFTWARE\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\AllFolders\Shell\{36011842-dccc-40fe-aa3d-6177ea401788}]
+"LogicalViewMode"=dword:00000003
+"Mode"=dword:00000001
+"IconSize"=dword:00000100
+
+;Videos Search Results
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\AllFolders\Shell\{ea25fbd7-3bf7-409e-b97f-3352240903f4}]
+"LogicalViewMode"=dword:00000003
+"Mode"=dword:00000001
+"IconSize"=dword:00000100

@@ -1,6 +1,6 @@
 Windows Registry Editor Version 5.00
 
-;Sets "mediom/large icons/extra large icons"view as default search results view for Generic, Music, Videos, Documents folders.
+;Sets "medium/large icons/extra large icons"view as default search results view for Generic, Music, Videos, Documents folders.
 ;Change IconSize to a value between 1-256 depending on how big icons you want
 
 [-HKEY_CURRENT_USER\SOFTWARE\Classes\Local Settings\Software\Microsoft\Windows\Shell\BagMRU]
